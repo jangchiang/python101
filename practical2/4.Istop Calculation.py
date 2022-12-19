@@ -1,0 +1,10 @@
+Is = int(input("i-stop on the seconds: "))
+ts = int(input("get time stop in seconds: "))
+Ism = Is // 60
+Iss = Is % 60
+tsm = ts // 60
+tss = ts % 60
+percentage = (Is/ts)*100
+print("i-stop ON: ", "%.0f"%Ism, "m ", "%.0f"%Iss, "s", sep="")
+print("Time Stopped: ", "%.0f"%tsm, "m ", "%.0f"%tss, "s", sep="")
+print("Percentage: ", "%.2f"%percentage, "%", sep="")
